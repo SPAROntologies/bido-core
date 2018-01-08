@@ -1,123 +1,123 @@
-_:Naefcae29cdf5403abe1db3463ea34168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+_:Nc399cd93efb14c0e8fd786b110344882 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/bido/BibliometricMeasure> .
+_:Nd11567658588409e91ea14d110ac150e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric measure" .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+_:N58f73ac42dbf449d84566a6b33682c32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Nde4301c0f4c445808e2d43977763da1d .
+<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric data" .
+<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#label> "has numeric value" .
+<http://www.essepuntato.it/2012/04/tvc/withValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#versionInfo> "1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni" .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2012/04/tvc/ValueInTime> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/)." .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/withinContext> .
+<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "This class define all the possible categories that characterise publication-related entities from a bibliometric point of view."@en .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
+<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricData> .
+_:Needecbd6100f4b0cafccb0e3df3f3b6b <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.essepuntato.it/2012/04/tvc/ValueInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#priorVersion> <https://svn.code.sf.net/p/sempublishing/code/BiDO/bido-core-2014-08-11_1-1.owl> .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2000/01/rdf-schema#label> "BiDO Core module" .
+<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "categorial bibliometric data"@en .
+_:N58f73ac42dbf449d84566a6b33682c32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric data in time" .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N452801e987174c95a7ad20e1e2baa136 .
+_:Nc399cd93efb14c0e8fd786b110344882 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.essepuntato.it/2012/04/tvc/withValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/creator> "Enrico Motta" .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2000/01/rdf-schema#comment> "The BiDO Core Module (BiDO-Core) allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data.\n\n**URL:** http://purl.org/spar/bido-core\n\n**Creators**: [Enrico Motta](https://orcid.org/0000-0003-0015-1952), [Francesco Osborne](https://orcid.org/0000-0001-6557-3131), [Silvio Peroni](http://orcid.org/0000-0003-0530-4305)\n\n**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)\n\n**Website:** http://www.sparontologies.net/ontologies/bido\n\n**Cite as:** Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24\u201335. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf" .
+<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "The class defining any kind of bibliometric data. In particular, they are organised according two sub-concepts: numeric data and categorial data." .
+_:N40cc0a4c7f4e423db605bb3f35d9351c <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "The class describing all the bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."@en .
+<http://www.essepuntato.it/2012/04/tvc/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Nc399cd93efb14c0e8fd786b110344882 .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#label> "according to" .
+_:N452801e987174c95a7ad20e1e2baa136 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2006/time#Interval> .
+<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+_:N452801e987174c95a7ad20e1e2baa136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:Nd11567658588409e91ea14d110ac150e <http://www.w3.org/2002/07/owl#unionOf> _:N58f73ac42dbf449d84566a6b33682c32 .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#label> "holds bibliometric data in time" .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+_:Needecbd6100f4b0cafccb0e3df3f3b6b <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/BibliometricDataInTime> .
 <http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/hasValue> .
+<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/date> "2015-07-14" .
+<http://www.essepuntato.it/2012/04/tvc/ValueInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/time> .
+_:N40cc0a4c7f4e423db605bb3f35d9351c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.essepuntato.it/2012/04/tvc/atTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:Needecbd6100f4b0cafccb0e3df3f3b6b .
 <http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "An object property connecting an entity's bibliometric data in time to a definition of the type of bibliometric data held by this entity, specified as an instance of the class bido:BibliometricData or of one of its sub-classes." .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "numeric bibliometric data"@en .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricMeasure> .
+<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes any kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)." .
+<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov> .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#comment> "This data property allows one to specify the actual value of the bibliometric data in consideration." .
+<http://purl.org/spar/bido-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
+_:N452801e987174c95a7ad20e1e2baa136 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2012/04/tvc/atTime> .
+<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/BibliometricDataInTime> .
+<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/withValue> .
+<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular situation that describe a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval." .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property allows one to specify the kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)." .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A property relating a person or any other publication-related entity to a bibliometric data that the entity holds. The ontology permits one to specify the time period over which a bibliometric data is held, and the other contextual entities responsible for having provided such bibliometric data." .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricDataInTime> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N40cc0a4c7f4e423db605bb3f35d9351c .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/spar/bido-core/2015-07-14> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/description> "The core module of BiDO allows us to describe any entity and the related bibliometric data (through the property holdsBibliometricDataInTime) at a certain time (i.e., tvc:atTime, a property defined by the imported TVC ontology for specifying temporal instants or intervals) and according to a certain agent (through the property accordingTo, which is a sub-property of prov:wasAttributedTo and allows us to indicate the agent responsible for such bibliometric data).\n\nTwo alternative kinds of bibliometric data are specifiable (through the property withBibliometricData) in BiDO: numeric data and categorial data. Numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure. Some of these measures \u2013 i.e., h-index, author citation count, e-index, and journal impact factor \u2013 are available in a particular module of BiDO responsible for describing the most common bibliometric measures.\n"@en .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:Nd11567658588409e91ea14d110ac150e .
+<http://www.essepuntato.it/2012/04/tvc/hasValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "has measure" .
+<http://www.essepuntato.it/2012/04/tvc/withinContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
+<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
 <http://www.essepuntato.it/2012/04/tvc/withinContext> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
 <http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "with bibliometric data" .
-_:N6c799858bf96439a8538e5b4c90c2245 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2012/04/tvc/withValue> .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N5b9a6a3861684fffbd106c011598352e .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/title> "BiDO: core module" .
-<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "This class define all the possible categories that characterise publication-related entities from a bibliometric point of view."@en .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:N5b9a6a3861684fffbd106c011598352e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-_:N703b68c8f7e8461c890a4f0933a73c75 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2012/04/tvc/atTime> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N6c799858bf96439a8538e5b4c90c2245 .
-_:N6c799858bf96439a8538e5b4c90c2245 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://purl.org/spar/bido/BibliometricMeasure> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/2006/time> .
-<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "categorial bibliometric data"@en .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A particular situation that describe a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval." .
-<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/description> "The core module of BiDO allows us to describe any entity and the related bibliometric data (through the property holdsBibliometricDataInTime) at a certain time (i.e., tvc:atTime, a property defined by the imported TVC ontology for specifying temporal instants or intervals) and according to a certain agent (through the property accordingTo, which is a sub-property of prov:wasAttributedTo and allows us to indicate the agent responsible for such bibliometric data).\n\nTwo alternative kinds of bibliometric data are specifiable (through the property withBibliometricData) in BiDO: numeric data and categorial data. Numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure. Some of these measures \u2013 i.e., h-index, author citation count, e-index, and journal impact factor \u2013 are available in a particular module of BiDO responsible for describing the most common bibliometric measures.\n"@en .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#label> "according to" .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2000/01/rdf-schema#label> "BiDO Core module" .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "numeric bibliometric data"@en .
-<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/creator> "Enrico Motta" .
-<http://www.essepuntato.it/2012/04/tvc/hasValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/dc/elements/1.1/date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/creator> "Silvio Peroni" .
-<http://purl.org/dc/elements/1.1/rights> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "The class defining any kind of bibliometric data. In particular, they are organised according two sub-concepts: numeric data and categorial data." .
-_:N50d7edde14044705a58748a17bd43912 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
-_:N5b9a6a3861684fffbd106c011598352e <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:Ncde845dc36e0451abf9940d91cb659b2 .
-<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#comment> "A property relating a person or any other publication-related entity to a bibliometric data that the entity holds. The ontology permits one to specify the time period over which a bibliometric data is held, and the other contextual entities responsible for having provided such bibliometric data." .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
-_:Ncde845dc36e0451abf9940d91cb659b2 <http://www.w3.org/2002/07/owl#unionOf> _:Nb841ed2907ed49109751953920536daa .
-<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/BibliometricDataInTime> .
-<http://www.w3.org/2002/07/owl#versionInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "This class describes any kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)." .
-<http://www.w3.org/2002/07/owl#Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.essepuntato.it/2012/04/tvc/withinContext> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#label> "has numeric value" .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2000/01/rdf-schema#comment> "The BiDO Core Module (BiDO-Core) allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data.\n\n**URL:** http://purl.org/spar/bido-core\n\n**Creators**: [Enrico Motta](https://orcid.org/0000-0003-0015-1952), [Francesco Osborne](https://orcid.org/0000-0001-6557-3131), [Silvio Peroni](http://orcid.org/0000-0003-0530-4305)\n\n**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/legalcode)\n\n**Website:** http://www.sparontologies.net/ontologies/bido\n\n**Cite as:** Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24\u201335. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf" .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "has measure" .
-_:Nb841ed2907ed49109751953920536daa <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
-_:Nb841ed2907ed49109751953920536daa <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:Naefcae29cdf5403abe1db3463ea34168 .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/hasValue> .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricMeasure> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A property relating a bibliometric data in time situation to an agent who provided such data." .
-<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/rights> "This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/)." .
-_:N6c799858bf96439a8538e5b4c90c2245 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2001/XMLSchema#integer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#comment> "This data property allows one to specify the actual value of the bibliometric data in consideration." .
-_:N5b9a6a3861684fffbd106c011598352e <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
-<http://www.essepuntato.it/2012/04/tvc/ValueInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2012/04/tvc/withValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov> .
-_:N703b68c8f7e8461c890a4f0933a73c75 <http://www.w3.org/2002/07/owl#allValuesFrom> <http://www.w3.org/2006/time#Interval> .
-<http://www.essepuntato.it/2012/04/tvc/withValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N50d7edde14044705a58748a17bd43912 .
-<http://www.essepuntato.it/2012/04/tvc/hasValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#imports> <http://www.essepuntato.it/2012/04/tvc> .
-_:Ncde845dc36e0451abf9940d91cb659b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido-core> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-_:N703b68c8f7e8461c890a4f0933a73c75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/date> "2015-07-14" .
-<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
-<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:N703b68c8f7e8461c890a4f0933a73c75 .
-<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://www.w3.org/2001/XMLSchema#float> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://www.essepuntato.it/2012/04/tvc/ValueInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
-<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric data" .
-<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://www.essepuntato.it/2012/04/tvc/atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric data in time" .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "The class describing all the bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."@en .
-<http://www.essepuntato.it/2012/04/tvc/atTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.essepuntato.it/2012/04/tvc> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricData> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/spar/bido/BibliometricDataInTime> .
-_:N50d7edde14044705a58748a17bd43912 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#priorVersion> <https://svn.code.sf.net/p/sempublishing/code/BiDO/bido-core-2014-08-11_1-1.owl> .
-_:Naefcae29cdf5403abe1db3463ea34168 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/prov#Agent> .
-<http://purl.org/spar/bido/BibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.essepuntato.it/2012/04/tvc/ValueInTime> .
-<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#versionInfo> "1.2"^^<http://www.w3.org/2001/XMLSchema#string> .
-<http://purl.org/spar/bido/withBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/withValue> .
-<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#versionIRI> <http://purl.org/spar/bido-core/2015-07-14> .
-<http://purl.org/spar/bido/BibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
-<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#label> "holds bibliometric data in time" .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
 <http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/creator> "Francesco Osborne" .
-<http://purl.org/spar/bido/hasMeasure> <http://www.w3.org/2000/01/rdf-schema#comment> "This object property allows one to specify the kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)." .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/ns/prov#wasAttributedTo> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.essepuntato.it/2012/04/tvc/withinContext> .
-<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov> .
-_:N50d7edde14044705a58748a17bd43912 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
-<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/BibliometricDataInTime> .
-<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#label> "bibliometric measure" .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/prov> .
+<http://purl.org/spar/bido/CategorialBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+_:Nde4301c0f4c445808e2d43977763da1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido-core> <http://www.w3.org/2002/07/owl#imports> <http://www.essepuntato.it/2012/04/tvc> .
+_:Nde4301c0f4c445808e2d43977763da1d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/ns/prov#wasAttributedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.essepuntato.it/2012/04/tvc/atTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://purl.org/spar/bido/holdsBibliometricDataInTime> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://www.w3.org/ns/prov#Agent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:Nc399cd93efb14c0e8fd786b110344882 <http://www.w3.org/2002/07/owl#onProperty> <http://www.essepuntato.it/2012/04/tvc/withValue> .
+<http://purl.org/spar/bido/accordingTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A property relating a bibliometric data in time situation to an agent who provided such data." .
+_:Needecbd6100f4b0cafccb0e3df3f3b6b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/BibliometricMeasure> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core> .
+<http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+<http://purl.org/spar/bido-core> <http://purl.org/dc/elements/1.1/title> "BiDO Core Module" .
+_:N40cc0a4c7f4e423db605bb3f35d9351c <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
 

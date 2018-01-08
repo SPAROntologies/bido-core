@@ -29,39 +29,13 @@
     ]
   },
   {
-    "@id": "http://purl.org/spar/bido/BibliometricDataInTime",
+    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#comment": [
-      {
-        "@value": "A particular situation that describe a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval."
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://purl.org/spar/bido-core"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#label": [
-      {
-        "@value": "bibliometric data in time"
-      }
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
-      {
-        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
-      },
-      {
-        "@id": "_:N6c799858bf96439a8538e5b4c90c2245"
-      },
-      {
-        "@id": "_:N703b68c8f7e8461c890a4f0933a73c75"
-      }
+      "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
   },
   {
-    "@id": "_:N50d7edde14044705a58748a17bd43912",
+    "@id": "_:Needecbd6100f4b0cafccb0e3df3f3b6b",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -73,25 +47,7 @@
     ],
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
-        "@id": "http://purl.org/spar/bido/hasNumericValue"
-      }
-    ]
-  },
-  {
-    "@id": "_:Ncde845dc36e0451abf9940d91cb659b2",
-    "@type": [
-      "http://www.w3.org/2000/01/rdf-schema#Datatype"
-    ],
-    "http://www.w3.org/2002/07/owl#unionOf": [
-      {
-        "@list": [
-          {
-            "@id": "http://www.w3.org/2001/XMLSchema#float"
-          },
-          {
-            "@id": "http://www.w3.org/2001/XMLSchema#integer"
-          }
-        ]
+        "@id": "http://purl.org/spar/bido/hasMeasure"
       }
     ]
   },
@@ -130,13 +86,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:N50d7edde14044705a58748a17bd43912"
-      },
-      {
         "@id": "http://purl.org/spar/bido/BibliometricData"
       },
       {
-        "@id": "_:N5b9a6a3861684fffbd106c011598352e"
+        "@id": "_:Needecbd6100f4b0cafccb0e3df3f3b6b"
+      },
+      {
+        "@id": "_:N40cc0a4c7f4e423db605bb3f35d9351c"
       }
     ]
   },
@@ -158,36 +114,20 @@
     ]
   },
   {
-    "@id": "http://www.essepuntato.it/2012/04/tvc/withinContext",
+    "@id": "http://www.w3.org/2006/time#Interval",
     "@type": [
-      "http://www.w3.org/2002/07/owl#ObjectProperty"
+      "http://www.w3.org/2002/07/owl#Class"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://www.w3.org/2006/time"
       }
     ]
   },
   {
-    "@id": "http://purl.org/dc/elements/1.1/description",
+    "@id": "http://purl.org/dc/elements/1.1/rights",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
-    ]
-  },
-  {
-    "@id": "_:N703b68c8f7e8461c890a4f0933a73c75",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://www.w3.org/2006/time#Interval"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2012/04/tvc/atTime"
-      }
     ]
   },
   {
@@ -224,7 +164,7 @@
     ],
     "http://purl.org/dc/elements/1.1/title": [
       {
-        "@value": "BiDO: core module"
+        "@value": "BiDO Core Module"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#comment": [
@@ -270,6 +210,23 @@
     ]
   },
   {
+    "@id": "_:N40cc0a4c7f4e423db605bb3f35d9351c",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasNumericValue"
+      }
+    ]
+  },
+  {
     "@id": "http://purl.org/spar/bido/BibliometricData",
     "@type": [
       "http://www.w3.org/2002/07/owl#Class"
@@ -297,9 +254,35 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2000/01/rdf-schema#comment",
+    "@id": "http://purl.org/spar/bido/BibliometricDataInTime",
     "@type": [
-      "http://www.w3.org/2002/07/owl#AnnotationProperty"
+      "http://www.w3.org/2002/07/owl#Class"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      {
+        "@value": "A particular situation that describe a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval."
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
+      {
+        "@id": "http://purl.org/spar/bido-core"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@value": "bibliometric data in time"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
+      {
+        "@id": "_:Nc399cd93efb14c0e8fd786b110344882"
+      },
+      {
+        "@id": "_:N452801e987174c95a7ad20e1e2baa136"
+      },
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      }
     ]
   },
   {
@@ -329,18 +312,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:Ncde845dc36e0451abf9940d91cb659b2"
-      }
-    ]
-  },
-  {
-    "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
-    ],
-    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
-      {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "_:Nd11567658588409e91ea14d110ac150e"
       }
     ]
   },
@@ -506,13 +478,47 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/2006/time#Interval",
+    "@id": "_:Nd11567658588409e91ea14d110ac150e",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Class"
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+    ],
+    "http://www.w3.org/2002/07/owl#unionOf": [
+      {
+        "@list": [
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#float"
+          },
+          {
+            "@id": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "@id": "http://www.essepuntato.it/2012/04/tvc/withinContext",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#ObjectProperty"
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.w3.org/2006/time"
+        "@id": "http://www.essepuntato.it/2012/04/tvc"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc399cd93efb14c0e8fd786b110344882",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
       }
     ]
   },
@@ -559,7 +565,7 @@
     ]
   },
   {
-    "@id": "http://purl.org/dc/elements/1.1/rights",
+    "@id": "http://purl.org/dc/elements/1.1/description",
     "@type": [
       "http://www.w3.org/2002/07/owl#AnnotationProperty"
     ]
@@ -582,35 +588,19 @@
     ]
   },
   {
-    "@id": "_:N5b9a6a3861684fffbd106c011598352e",
+    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#cardinality": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/spar/bido/hasMeasure"
-      }
+      "http://www.w3.org/2000/01/rdf-schema#Datatype"
     ]
   },
   {
-    "@id": "_:N6c799858bf96439a8538e5b4c90c2245",
+    "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime",
     "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
+      "http://www.w3.org/2002/07/owl#Class"
     ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+    "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
+        "@id": "http://www.essepuntato.it/2012/04/tvc"
       }
     ]
   },
@@ -621,9 +611,19 @@
     ]
   },
   {
-    "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral",
+    "@id": "_:N452801e987174c95a7ad20e1e2baa136",
     "@type": [
-      "http://www.w3.org/2000/01/rdf-schema#Datatype"
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://www.w3.org/2006/time#Interval"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/atTime"
+      }
     ]
   }
 ]
