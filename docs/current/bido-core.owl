@@ -1,30 +1,24 @@
 <?xml version="1.0"?>
-
-
-<!DOCTYPE rdf:RDF [
-    <!ENTITY prov "http://www.w3.org/ns/prov#" >
-    <!ENTITY time "http://www.w3.org/2006/time#" >
-    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
-    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
-    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY tvc "http://www.essepuntato.it/2012/04/tvc/" >
-    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-]>
-
-
 <rdf:RDF xmlns="http://purl.org/spar/bido/"
      xml:base="http://purl.org/spar/bido/"
      xmlns:tvc="http://www.essepuntato.it/2012/04/tvc/"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:cpannotationschema="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:time="http://www.w3.org/2006/time#"
      xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.org/spar/bido-core">
+        <owl:versionIRI rdf:resource="http://purl.org/spar/bido-core/2018-07-13"/>
+        <owl:imports rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+        <dc:creator>Enrico Motta</dc:creator>
         <rdfs:label>BiDO Core module</rdfs:label>
+        <dc:creator>Silvio Peroni</dc:creator>
         <rdfs:comment>The BiDO Core Module (BiDO-Core) allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data.
 
 **URL:** http://purl.org/spar/bido-core
@@ -36,25 +30,21 @@
 **Website:** http://www.sparontologies.net/ontologies/bido
 
 **Cite as:** Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf</rdfs:comment>
-        <owl:versionInfo rdf:datatype="&xsd;string">1.2</owl:versionInfo>
-        <owl:versionIRI rdf:resource="http://purl.org/spar/bido-core/2015-07-14"/>
-        <owl:priorVersion rdf:resource="https://svn.code.sf.net/p/sempublishing/code/BiDO/bido-core-2014-08-11_1-1.owl"/>
-        <dc:title>BiDO Core Module</dc:title>
-        <dc:creator>Silvio Peroni</dc:creator>
-        <dc:creator>Francesco Osborne</dc:creator>
-        <dc:creator>Enrico Motta</dc:creator>
-        <dc:date>2015-07-14</dc:date>
+        <dc:date>2018-07-13</dc:date>
+        <owl:priorVersion rdf:resource="http://purl.org/spar/bido-core/2015-07-14"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</owl:versionInfo>
+        <dc:rights>This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/).</dc:rights>
         <dc:description xml:lang="en">The core module of BiDO allows us to describe any entity and the related bibliometric data (through the property holdsBibliometricDataInTime) at a certain time (i.e., tvc:atTime, a property defined by the imported TVC ontology for specifying temporal instants or intervals) and according to a certain agent (through the property accordingTo, which is a sub-property of prov:wasAttributedTo and allows us to indicate the agent responsible for such bibliometric data).
 
 Two alternative kinds of bibliometric data are specifiable (through the property withBibliometricData) in BiDO: numeric data and categorial data. Numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure. Some of these measures – i.e., h-index, author citation count, e-index, and journal impact factor – are available in a particular module of BiDO responsible for describing the most common bibliometric measures.
 </dc:description>
-        <dc:rights>This work is distributed under a Creative Commons Attribution License (http://creativecommons.org/licenses/by/4.0/).</dc:rights>
-        <owl:imports rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+        <dc:title>BiDO Core Module</dc:title>
+        <dc:creator>Francesco Osborne</dc:creator>
     </owl:Ontology>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Annotation properties
@@ -62,64 +52,64 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
-    <owl:AnnotationProperty rdf:about="&dc;creator"/>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/date -->
 
-    <owl:AnnotationProperty rdf:about="&dc;date"/>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/description -->
 
-    <owl:AnnotationProperty rdf:about="&dc;description"/>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/rights -->
 
-    <owl:AnnotationProperty rdf:about="&dc;rights"/>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/rights"/>
+    
 
 
     <!-- http://purl.org/dc/elements/1.1/title -->
 
-    <owl:AnnotationProperty rdf:about="&dc;title"/>
-
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
 
-    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
-
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
 
-    <owl:AnnotationProperty rdf:about="&rdfs;isDefinedBy"/>
-
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy"/>
+    
 
 
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
-    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
-
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
 
 
     <!-- http://www.w3.org/2002/07/owl#versionInfo -->
 
-    <owl:AnnotationProperty rdf:about="&owl;versionInfo"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2002/07/owl#versionInfo"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Datatypes
@@ -127,28 +117,28 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral -->
 
-    <rdfs:Datatype rdf:about="&rdf;PlainLiteral"/>
-
+    <rdfs:Datatype rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral"/>
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#float -->
 
-    <rdfs:Datatype rdf:about="&xsd;float"/>
-
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+    
 
 
     <!-- http://www.w3.org/2001/XMLSchema#integer -->
 
-    <rdfs:Datatype rdf:about="&xsd;integer"/>
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Object Properties
@@ -156,102 +146,102 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/spar/bido/accordingTo -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/spar/bido/accordingTo">
-        <rdfs:label>according to</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.essepuntato.it/2012/04/tvc/withinContext"/>
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/ns/prov#wasAttributedTo"/>
+        <rdfs:domain rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/prov#Agent"/>
         <rdfs:comment>A property relating a bibliometric data in time situation to an agent who provided such data.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
-        <rdfs:domain rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
-        <rdfs:subPropertyOf rdf:resource="&tvc;withinContext"/>
-        <rdfs:range rdf:resource="&prov;Agent"/>
-        <rdfs:subPropertyOf rdf:resource="&prov;wasAttributedTo"/>
+        <rdfs:label>according to</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/spar/bido/hasMeasure -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/spar/bido/hasMeasure">
-        <rdfs:label>has measure</rdfs:label>
+        <rdfs:domain rdf:resource="http://purl.org/spar/bido/NumericBibliometricData"/>
+        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricMeasure"/>
         <rdfs:comment>This object property allows one to specify the kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
-        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricMeasure"/>
-        <rdfs:domain rdf:resource="http://purl.org/spar/bido/NumericBibliometricData"/>
+        <rdfs:label>has measure</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/spar/bido/holdsBibliometricDataInTime -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/spar/bido/holdsBibliometricDataInTime">
-        <rdfs:label>holds bibliometric data in time</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.essepuntato.it/2012/04/tvc/hasValue"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
         <rdfs:comment>A property relating a person or any other publication-related entity to a bibliometric data that the entity holds. The ontology permits one to specify the time period over which a bibliometric data is held, and the other contextual entities responsible for having provided such bibliometric data.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
-        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
-        <rdfs:subPropertyOf rdf:resource="&tvc;hasValue"/>
-        <rdfs:domain rdf:resource="&owl;Thing"/>
+        <rdfs:label>holds bibliometric data in time</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://purl.org/spar/bido/withBibliometricData -->
 
     <owl:ObjectProperty rdf:about="http://purl.org/spar/bido/withBibliometricData">
-        <rdfs:label>with bibliometric data</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://www.essepuntato.it/2012/04/tvc/withValue"/>
+        <rdfs:domain rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
+        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricData"/>
         <rdfs:comment>An object property connecting an entity&apos;s bibliometric data in time to a definition of the type of bibliometric data held by this entity, specified as an instance of the class bido:BibliometricData or of one of its sub-classes.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
-        <rdfs:range rdf:resource="http://purl.org/spar/bido/BibliometricData"/>
-        <rdfs:domain rdf:resource="http://purl.org/spar/bido/BibliometricDataInTime"/>
-        <rdfs:subPropertyOf rdf:resource="&tvc;withValue"/>
+        <rdfs:label>with bibliometric data</rdfs:label>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.essepuntato.it/2012/04/tvc/atTime -->
 
-    <owl:ObjectProperty rdf:about="&tvc;atTime">
+    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2012/04/tvc/atTime">
         <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.essepuntato.it/2012/04/tvc/hasValue -->
 
-    <owl:ObjectProperty rdf:about="&tvc;hasValue">
+    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2012/04/tvc/hasValue">
         <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.essepuntato.it/2012/04/tvc/withValue -->
 
-    <owl:ObjectProperty rdf:about="&tvc;withValue">
+    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2012/04/tvc/withValue">
         <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.essepuntato.it/2012/04/tvc/withinContext -->
 
-    <owl:ObjectProperty rdf:about="&tvc;withinContext">
+    <owl:ObjectProperty rdf:about="http://www.essepuntato.it/2012/04/tvc/withinContext">
         <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
     </owl:ObjectProperty>
-
+    
 
 
     <!-- http://www.w3.org/ns/prov#wasAttributedTo -->
 
-    <owl:ObjectProperty rdf:about="&prov;wasAttributedTo">
+    <owl:ObjectProperty rdf:about="http://www.w3.org/ns/prov#wasAttributedTo">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov"/>
     </owl:ObjectProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Data properties
@@ -259,7 +249,7 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/spar/bido/hasNumericValue -->
@@ -269,16 +259,19 @@ Two alternative kinds of bibliometric data are specifiable (through the property
         <rdfs:range>
             <rdfs:Datatype>
                 <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&xsd;float"/>
-                    <rdf:Description rdf:about="&xsd;integer"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#float"/>
+                    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#integer"/>
                 </owl:unionOf>
             </rdfs:Datatype>
         </rdfs:range>
+        <rdfs:comment>This data property allows one to specify the actual value of the bibliometric data in consideration.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label>has numeric value</rdfs:label>
     </owl:DatatypeProperty>
+    
 
 
-
-    <!--
+    <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
     // Classes
@@ -286,131 +279,123 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-
+    
 
 
     <!-- http://purl.org/spar/bido/BibliometricData -->
 
     <owl:Class rdf:about="http://purl.org/spar/bido/BibliometricData">
-        <rdfs:label>bibliometric data</rdfs:label>
         <rdfs:comment>The class defining any kind of bibliometric data. In particular, they are organised according two sub-concepts: numeric data and categorial data.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label>bibliometric data</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/spar/bido/BibliometricDataInTime -->
 
     <owl:Class rdf:about="http://purl.org/spar/bido/BibliometricDataInTime">
-        <rdfs:label>bibliometric data in time</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&tvc;ValueInTime"/>
+        <rdfs:subClassOf rdf:resource="http://www.essepuntato.it/2012/04/tvc/ValueInTime"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&tvc;atTime"/>
-                <owl:allValuesFrom rdf:resource="&time;Interval"/>
+                <owl:onProperty rdf:resource="http://www.essepuntato.it/2012/04/tvc/atTime"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2006/time#Interval"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&tvc;withValue"/>
+                <owl:onProperty rdf:resource="http://www.essepuntato.it/2012/04/tvc/withValue"/>
                 <owl:allValuesFrom rdf:resource="http://purl.org/spar/bido/BibliometricMeasure"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A particular situation that describe a bibliometric data a person, an article, or any other publication-related entity may have, that can be restricted to a particular time interval.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label>bibliometric data in time</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/spar/bido/BibliometricMeasure -->
 
     <owl:Class rdf:about="http://purl.org/spar/bido/BibliometricMeasure">
-        <rdfs:label>bibliometric measure</rdfs:label>
         <rdfs:comment>This class describes any kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor).</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label>bibliometric measure</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/spar/bido/CategorialBibliometricData -->
 
     <owl:Class rdf:about="http://purl.org/spar/bido/CategorialBibliometricData">
-        <rdfs:label xml:lang="en">categorial bibliometric data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/spar/bido/BibliometricData"/>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
         <rdfs:comment xml:lang="en">This class define all the possible categories that characterise publication-related entities from a bibliometric point of view.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label xml:lang="en">categorial bibliometric data</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://purl.org/spar/bido/NumericBibliometricData -->
 
     <owl:Class rdf:about="http://purl.org/spar/bido/NumericBibliometricData">
-        <rdfs:label xml:lang="en">numeric bibliometric data</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/spar/bido/BibliometricData"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/spar/bido/hasMeasure"/>
-                <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/spar/bido/hasNumericValue"/>
-                <owl:cardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:cardinality>
+                <owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:cardinality>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">The class describing all the bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
+        <rdfs:label xml:lang="en">numeric bibliometric data</rdfs:label>
     </owl:Class>
-
+    
 
 
     <!-- http://www.essepuntato.it/2012/04/tvc/ValueInTime -->
 
-    <owl:Class rdf:about="&tvc;ValueInTime">
+    <owl:Class rdf:about="http://www.essepuntato.it/2012/04/tvc/ValueInTime">
         <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.w3.org/2002/07/owl#Thing -->
 
-    <owl:Class rdf:about="&owl;Thing"/>
+    <owl:Class rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+    
 
+
+    <!-- http://www.w3.org/2004/02/skos/core#Concept -->
+
+    <owl:Class rdf:about="http://www.w3.org/2004/02/skos/core#Concept"/>
+    
 
 
     <!-- http://www.w3.org/2006/time#Interval -->
 
-    <owl:Class rdf:about="&time;Interval">
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/2006/time"/>
     </owl:Class>
-
+    
 
 
     <!-- http://www.w3.org/ns/prov#Agent -->
 
-    <owl:Class rdf:about="&prov;Agent">
+    <owl:Class rdf:about="http://www.w3.org/ns/prov#Agent">
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/prov"/>
     </owl:Class>
-
-
-
-    <!--
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="http://purl.org/spar/bido/hasNumericValue">
-        <rdfs:label>has numeric value</rdfs:label>
-        <rdfs:comment>This data property allows one to specify the actual value of the bibliometric data in consideration.</rdfs:comment>
-        <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/bido-core"/>
-    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
