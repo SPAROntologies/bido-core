@@ -120,7 +120,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ]
   },
@@ -183,7 +183,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ]
   },
@@ -212,7 +212,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ]
   },
@@ -373,7 +373,7 @@
     ],
     "http://www.w3.org/2002/07/owl#imports": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ],
     "http://www.w3.org/2002/07/owl#priorVersion": [
@@ -511,7 +511,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ]
   },
@@ -522,7 +522,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://www.essepuntato.it/2012/04/tvc"
+        "@id": "http://purl.org/spar/tvc"
       }
     ]
   },

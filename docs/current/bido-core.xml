@@ -12,7 +12,7 @@
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2012/04/tvc/ValueInTime">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/tvc"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N33016d726dd74cf88359f982e367c5be">
     <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
@@ -51,7 +51,7 @@ Two alternative kinds of bibliometric data are specifiable (through the property
 **Cite as:** Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf</rdfs:comment>
     <dc:creator>Enrico Motta</dc:creator>
     <owl:priorVersion rdf:resource="http://purl.org/spar/bido-core/2015-07-14"/>
-    <owl:imports rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <owl:imports rdf:resource="http://purl.org/spar/tvc"/>
     <owl:versionIRI rdf:resource="http://purl.org/spar/bido-core/2018-07-13"/>
     <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</owl:versionInfo>
     <dc:creator>Francesco Osborne</dc:creator>
@@ -146,7 +146,7 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2012/04/tvc/atTime">
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/tvc"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/spar/bido/hasMeasure">
@@ -167,7 +167,7 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     <owl:onProperty rdf:resource="http://www.essepuntato.it/2012/04/tvc/withValue"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2012/04/tvc/withinContext">
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/tvc"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
@@ -184,12 +184,12 @@ Two alternative kinds of bibliometric data are specifiable (through the property
     <rdfs:comment>A property relating a bibliometric data in time situation to an agent who provided such data.</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2012/04/tvc/hasValue">
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/tvc"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.essepuntato.it/2012/04/tvc/withValue">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-    <rdfs:isDefinedBy rdf:resource="http://www.essepuntato.it/2012/04/tvc"/>
+    <rdfs:isDefinedBy rdf:resource="http://purl.org/spar/tvc"/>
   </rdf:Description>
   <rdf:Description rdf:nodeID="N97e76349eb2e47b0bcf6784d717a01bc">
     <rdf:first rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>

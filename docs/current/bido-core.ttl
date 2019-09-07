@@ -80,16 +80,16 @@ owl:versionInfo a owl:AnnotationProperty .
             owl:unionOf ( xsd:float xsd:integer ) ] .
 
 tvc:ValueInTime a owl:Class ;
-    rdfs:isDefinedBy <http://www.essepuntato.it/2012/04/tvc> .
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> .
 
 tvc:atTime a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://www.essepuntato.it/2012/04/tvc> .
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> .
 
 tvc:hasValue a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://www.essepuntato.it/2012/04/tvc> .
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> .
 
 tvc:withinContext a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://www.essepuntato.it/2012/04/tvc> .
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> .
 
 xsd:float a rdfs:Datatype .
 
@@ -126,7 +126,7 @@ prov:wasAttributedTo a owl:ObjectProperty ;
         :BibliometricData .
 
 tvc:withValue a owl:ObjectProperty ;
-    rdfs:isDefinedBy <http://www.essepuntato.it/2012/04/tvc> .
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> .
 
 :BibliometricData a owl:Class ;
     rdfs:label "bibliometric data" ;
@@ -168,7 +168,7 @@ Two alternative kinds of bibliometric data are specifiable (through the property
 **Website:** http://www.sparontologies.net/ontologies/bido
 
 **Cite as:** Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf""" ;
-    owl:imports <http://www.essepuntato.it/2012/04/tvc> ;
+    owl:imports <http://purl.org/spar/tvc> ;
     owl:priorVersion <http://purl.org/spar/bido-core/2015-07-14> ;
     owl:versionIRI <http://purl.org/spar/bido-core/2018-07-13> ;
     owl:versionInfo "1.2"^^xsd:string .
