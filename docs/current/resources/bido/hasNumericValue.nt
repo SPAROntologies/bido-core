@@ -1,0 +1,14 @@
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#range> _:n3d41e6631f9341b5958d871787407c25b1 .
+_:n3d41e6631f9341b5958d871787407c25b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#float> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
+_:n3d41e6631f9341b5958d871787407c25b1 <http://www.w3.org/2002/07/owl#unionOf> _:n3d41e6631f9341b5958d871787407c25b2 .
+_:n3d41e6631f9341b5958d871787407c25b1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#label> "has numeric value"@en .
+_:n3d41e6631f9341b5958d871787407c25b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#comment> "The actual value of the bibliometric data in consideration."@en .
+_:n3d41e6631f9341b5958d871787407c25b2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:n3d41e6631f9341b5958d871787407c25b3 .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core/> .
+<http://purl.org/spar/bido/hasNumericValue> <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/spar/bido/NumericBibliometricData> .
+<http://purl.org/spar/bido/hasNumericValue> <http://purl.org/vocab/vann/example> "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    " .
+_:n3d41e6631f9341b5958d871787407c25b3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
