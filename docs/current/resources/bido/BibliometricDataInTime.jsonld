@@ -28,13 +28,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nf01d650d64bc46a792eee048163d8adcb6"
-      },
-      {
-        "@id": "_:nf01d650d64bc46a792eee048163d8adcb7"
-      },
-      {
         "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
+      },
+      {
+        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab6"
+      },
+      {
+        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab7"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:nf01d650d64bc46a792eee048163d8adcb6",
+    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "@id": "_:nf01d650d64bc46a792eee048163d8adcb7",
+    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab7",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

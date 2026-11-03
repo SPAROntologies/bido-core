@@ -28,13 +28,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:nf01d650d64bc46a792eee048163d8adcb5"
+        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab4"
+      },
+      {
+        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab5"
       },
       {
         "@id": "http://purl.org/spar/bido/BibliometricData"
-      },
-      {
-        "@id": "_:nf01d650d64bc46a792eee048163d8adcb4"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -44,24 +44,7 @@
     ]
   },
   {
-    "@id": "_:nf01d650d64bc46a792eee048163d8adcb5",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#cardinality": [
-      {
-        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
-        "@value": "1"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://purl.org/spar/bido/hasMeasure"
-      }
-    ]
-  },
-  {
-    "@id": "_:nf01d650d64bc46a792eee048163d8adcb4",
+    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab4",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -74,6 +57,23 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://purl.org/spar/bido/hasNumericValue"
+      }
+    ]
+  },
+  {
+    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab5",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#cardinality": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+        "@value": "1"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://purl.org/spar/bido/hasMeasure"
       }
     ]
   }
