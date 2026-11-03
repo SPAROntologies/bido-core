@@ -1,6 +1,12 @@
 # BiDO Core Module (BiDO-Core)
 
-The BiDO Core Module (BiDO-Core) allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data.
+[![License](https://img.shields.io/github/license/SPAROntologies/bido-core)](LICENSE.md)
+[![Release](https://img.shields.io/github/v/release/SPAROntologies/bido-core)](https://github.com/SPAROntologies/bido-core/releases/latest)
+[![Tests](https://img.shields.io/github/actions/workflow/status/SPAROntologies/bido-core/validation.yml?label=tests)](https://github.com/SPAROntologies/bido-core/actions/workflows/validation.yml)
+[![Documentation](https://img.shields.io/badge/docs-sparontologies.net-blue)](http://www.sparontologies.net/ontologies/bido)
+[![IRI](https://img.shields.io/badge/IRI-purl.org%2Fspar%2Fbido-core-blue)](http://purl.org/spar/bido-core)
+
+The **_BiDO Core Module (BiDO-Core)_** allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data.
 
 **URL:** http://purl.org/spar/bido-core
 

@@ -1,15 +1,15 @@
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "numeric bibliometric data"@en .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:nf01d650d64bc46a792eee048163d8adcb5 .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."@en .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .
 <http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://purl.org/spar/bido-core/> .
-_:nf01d650d64bc46a792eee048163d8adcb5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n375c04c1e5634ddabefec20e0044f27ab4 .
+_:n375c04c1e5634ddabefec20e0044f27ab4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/spar/bido/NumericBibliometricData> <http://purl.org/vocab/vann/example> "\n    :my-numeric-bibliometric-data a bido:NumericBibliometricData ;\n        bido:hasMeasure bido:journal-impact-factor ;\n        bido:hasNumericValue \"2.464\"^^xsd:float .\n    " .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:nf01d650d64bc46a792eee048163d8adcb5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:nf01d650d64bc46a792eee048163d8adcb4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
 <http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> <http://purl.org/linked-data/registry#statusStable> .
-<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:nf01d650d64bc46a792eee048163d8adcb4 .
-_:nf01d650d64bc46a792eee048163d8adcb4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
-_:nf01d650d64bc46a792eee048163d8adcb4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
-_:nf01d650d64bc46a792eee048163d8adcb5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#comment> "Bibliometric data represented by numbers. Such numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure."@en .
+_:n375c04c1e5634ddabefec20e0044f27ab5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:n375c04c1e5634ddabefec20e0044f27ab5 .
+_:n375c04c1e5634ddabefec20e0044f27ab5 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasMeasure> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#label> "numeric bibliometric data"@en .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:n375c04c1e5634ddabefec20e0044f27ab4 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:n375c04c1e5634ddabefec20e0044f27ab4 <http://www.w3.org/2002/07/owl#onProperty> <http://purl.org/spar/bido/hasNumericValue> .
+_:n375c04c1e5634ddabefec20e0044f27ab5 <http://www.w3.org/2002/07/owl#cardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+<http://purl.org/spar/bido/NumericBibliometricData> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/spar/bido/BibliometricData> .

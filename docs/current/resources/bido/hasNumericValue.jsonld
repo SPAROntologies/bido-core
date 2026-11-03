@@ -33,7 +33,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:nf01d650d64bc46a792eee048163d8adcb1"
+        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab1"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "@id": "_:nf01d650d64bc46a792eee048163d8adcb1",
+    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab1",
     "@type": [
       "http://www.w3.org/2000/01/rdf-schema#Datatype"
     ],
