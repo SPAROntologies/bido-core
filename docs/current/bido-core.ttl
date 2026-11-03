@@ -33,7 +33,7 @@ dc:title a owl:AnnotationProperty .
     dc:creator "Enrico Motta (https://orcid.org/0000-0003-0015-1952)"^^xsd:string,
         "Francesco Osborne (https://orcid.org/0000-0001-6557-3131)"^^xsd:string,
         "Silvio Peroni (http://orcid.org/0000-0003-0530-4305)"^^xsd:string ;
-    dc:date "2026-09-13" ;
+    dc:date "2026-10-05" ;
     dc:description """
 The core module of BiDO allows us to describe any entity and the related bibliometric data (through the property `bido:holdsBibliometricDataInTime`) at a certain time (i.e., `tvc:atTime`, a property defined by the imported TVC ontology for specifying temporal instants or intervals) and according to a certain agent (through the property `bido:accordingTo`, which is a sub-property of `prov:wasAttributedTo` and allows us to indicate the agent responsible for such bibliometric data).
 
@@ -43,31 +43,37 @@ Two alternative kinds of bibliometric data are specifiable (through the property
 Numeric data are those characterised by a certain integer or float value related to a particular bibliometric measure. 
 Some of these measures – i.e., h-index, author citation count, e-index, and journal impact factor – are available in a particular module of BiDO responsible for describing the most common bibliometric measures.
 """@en ;
-    dc:title "BiDO Core module (BiDO-Core)"@en ;
+    dc:title "The BiDO Core module (BiDO-Core)"@en ;
     dcterms:bibliographicCitation "Osborne, F., Peroni, S., Motta, E. (2014). Clustering Citation Distributions for Semantic Categorization and Citation Prediction. In Proceedings of the 4th Workshop on Linked Science (LISC 2014): 24–35. http://ceur-ws.org/Vol-1282/lisc2014_submission_9.pdf" ;
     dcterms:created "2015-07-14" ;
     dcterms:issued "2015-07-14" ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:modified "2026-09-13" ;
+    dcterms:modified "2026-10-05" ;
     dcterms:publisher <https://ror.org/00wb4mk85> ;
     dcterms:source <https://github.com/SPAROntologies/bido/blob/master/docs/cq.md> ;
     bibo:doi "https://doi.org/10.25504/FAIRsharing.d7f0a9" ;
     bibo:status <http://purl.org/ontology/bibo/status/published> ;
-    vann:changes """
-* **v1.2.1**: Added new documentation, including annotation properties (e.g., `bibo:doi`, `schema:codeRepository`, etc.), term properties (e.g., `vann:example`, `vs:term_status`, etc.), exemplary competency questions with their respective SPARQL queries, and a Grafoo diagram.
-* **v1.2.2**: Fixed `tvc:atTime` range, adding `time:TemporalEntity`.
-    """@en ;
+    vann:changes <https://github.com/SPAROntologies/bido-core/blob/master/CHANGELOG.md> ;
     vann:preferredNamespacePrefix "bido"@en ;
     vann:preferredNamespaceUri "http://purl.org/spar/bido"@en ;
     rdfs:seeAlso <http://www.sparontologies.net/ontologies/bido> ;
-    owl:backwardCompatibleWith :2026-08-14 ;
+    owl:backwardCompatibleWith :2026-09-13 ;
     owl:imports <http://purl.org/spar/tvc> ;
-    owl:priorVersion :2026-08-14 ;
-    owl:versionIRI :2026-09-13 ;
-    owl:versionInfo "1.2.2"^^xsd:string ;
-    foaf:logo <https://github.com/SPAROntologies/bido/blob/master/spar.png> ;
+    owl:priorVersion :2026-09-13 ;
+    owl:versionIRI :2026-10-05 ;
+    owl:versionInfo "1.2.3"^^xsd:string ;
+    foaf:logo <https://github.com/SPAROntologies/sparontologies.github.io/blob/master/static/img/spar/spar-logo.png> ;
     schema:codeRepository <https://github.com/SPAROntologies/bido> ;
-    schema:includedInDataCatalog <https://fairsharing.org/> .
+    schema:includedInDataCatalog <https://fairsharing.org/> ;
+    dc:language <http://id.loc.gov/vocabulary/iso639-2/eng> ;
+    schema:keywords 
+        "SPAR Ontologies"@en ,
+        "Semantic Publishing and Referencing Ontologies"@en ,
+        "bibliometrics"@en,
+        "bibliometric data"@en,
+        "scholarly publishing"@en,
+        "scientometrics"@en,
+        "semantic publishing"@en .
 
 bido:CategorialBibliometricData a owl:Class ;
     rdfs:label "categorial bibliometric data"@en ;
