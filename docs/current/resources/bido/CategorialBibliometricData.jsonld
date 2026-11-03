@@ -28,10 +28,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "http://purl.org/spar/bido/BibliometricData"
+        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
       },
       {
-        "@id": "http://www.w3.org/2004/02/skos/core#Concept"
+        "@id": "http://purl.org/spar/bido/BibliometricData"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
