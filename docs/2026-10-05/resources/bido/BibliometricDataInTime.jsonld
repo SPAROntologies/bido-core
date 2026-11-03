@@ -28,13 +28,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
+        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b7"
+      },
+      {
+        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b6"
+      },
+      {
         "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
-      },
-      {
-        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab6"
-      },
-      {
-        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab7"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -44,23 +44,7 @@
     ]
   },
   {
-    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab6",
-    "@type": [
-      "http://www.w3.org/2002/07/owl#Restriction"
-    ],
-    "http://www.w3.org/2002/07/owl#allValuesFrom": [
-      {
-        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
-      }
-    ],
-    "http://www.w3.org/2002/07/owl#onProperty": [
-      {
-        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
-      }
-    ]
-  },
-  {
-    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab7",
+    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b7",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -72,6 +56,22 @@
     "http://www.w3.org/2002/07/owl#onProperty": [
       {
         "@id": "http://www.essepuntato.it/2012/04/tvc/atTime"
+      }
+    ]
+  },
+  {
+    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b6",
+    "@type": [
+      "http://www.w3.org/2002/07/owl#Restriction"
+    ],
+    "http://www.w3.org/2002/07/owl#allValuesFrom": [
+      {
+        "@id": "http://purl.org/spar/bido/BibliometricMeasure"
+      }
+    ],
+    "http://www.w3.org/2002/07/owl#onProperty": [
+      {
+        "@id": "http://www.essepuntato.it/2012/04/tvc/withValue"
       }
     ]
   }
