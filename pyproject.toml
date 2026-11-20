@@ -1,6 +1,6 @@
 [project]
 name = "bido-core"
-version = "1.2.3"
+version = "1.2.4"
 description = "The BiDO Core Module (BiDO-Core) allows the description of any entity and the related bibliometric data at a certain time and according to a certain agent responsible for such bibliometric data."
 readme = "README.md"
 requires-python = ">=3.13"
