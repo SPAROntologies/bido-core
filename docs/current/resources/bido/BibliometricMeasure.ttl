@@ -1,4 +1,3 @@
-@prefix : <http://purl.org/spar/bido-core/> .
 @prefix bido: <http://purl.org/spar/bido/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -15,6 +14,6 @@ bido:BibliometricMeasure a owl:Class ;
     bido:journal-impact-factor a bido:BibliometricMeasure .
     """ ;
     rdfs:comment "Any kind of measure related with a bibliometric data (e.g., h-index, e-index, journal impact factor)."@en ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido-core> ;
     vs:term_status reg:statusStable .
 

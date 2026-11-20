@@ -1,4 +1,3 @@
-@prefix : <http://purl.org/spar/bido-core/> .
 @prefix bido: <http://purl.org/spar/bido/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -16,7 +15,7 @@ bido:hasNumericValue a owl:DatatypeProperty ;
     """ ;
     rdfs:comment "The actual value of the bibliometric data in consideration."@en ;
     rdfs:domain bido:NumericBibliometricData ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido-core> ;
     rdfs:range [ a rdfs:Datatype ;
             owl:unionOf ( xsd:float xsd:integer ) ] ;
     vs:term_status reg:statusStable .

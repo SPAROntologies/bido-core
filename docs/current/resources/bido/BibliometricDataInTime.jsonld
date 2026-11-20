@@ -17,7 +17,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/bido-core/"
+        "@id": "http://purl.org/spar/bido-core"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -28,10 +28,10 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b7"
+        "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b7"
       },
       {
-        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b6"
+        "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b6"
       },
       {
         "@id": "http://www.essepuntato.it/2012/04/tvc/ValueInTime"
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b7",
+    "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b7",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b6",
+    "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b6",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],

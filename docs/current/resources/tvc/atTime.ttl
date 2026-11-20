@@ -7,6 +7,6 @@ tvc:atTime a owl:ObjectProperty ;
     rdfs:label "at time"@en ;
     rdfs:comment "The relation between a situation and the particular temporal instant or time period in which the situation takes place."@en ;
     rdfs:domain tvc:ValueInTime ;
-    rdfs:isDefinedBy <http://purl.org/spar/tvc/> ;
+    rdfs:isDefinedBy <http://purl.org/spar/tvc> ;
     rdfs:range time:TemporalEntity .
 

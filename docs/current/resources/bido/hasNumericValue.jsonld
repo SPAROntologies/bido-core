@@ -22,7 +22,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#isDefinedBy": [
       {
-        "@id": "http://purl.org/spar/bido-core/"
+        "@id": "http://purl.org/spar/bido-core"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
@@ -33,7 +33,7 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#range": [
       {
-        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b1"
+        "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b1"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -43,7 +43,7 @@
     ]
   },
   {
-    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b1",
+    "@id": "_:n1ab1d6115e684e6d8b200ec5713d3711b1",
     "@type": [
       "http://www.w3.org/2000/01/rdf-schema#Datatype"
     ],
