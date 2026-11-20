@@ -28,13 +28,13 @@
     ],
     "http://www.w3.org/2000/01/rdf-schema#subClassOf": [
       {
-        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab4"
-      },
-      {
-        "@id": "_:n375c04c1e5634ddabefec20e0044f27ab5"
-      },
-      {
         "@id": "http://purl.org/spar/bido/BibliometricData"
+      },
+      {
+        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b4"
+      },
+      {
+        "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b5"
       }
     ],
     "http://www.w3.org/2003/06/sw-vocab-status/ns#term_status": [
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab4",
+    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b4",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
@@ -61,7 +61,7 @@
     ]
   },
   {
-    "@id": "_:n375c04c1e5634ddabefec20e0044f27ab5",
+    "@id": "_:n6ce962fcaa2c4deb9d10f843037652c2b5",
     "@type": [
       "http://www.w3.org/2002/07/owl#Restriction"
     ],
