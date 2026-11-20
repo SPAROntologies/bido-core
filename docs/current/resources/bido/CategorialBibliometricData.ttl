@@ -1,4 +1,3 @@
-@prefix : <http://purl.org/spar/bido-core/> .
 @prefix bido: <http://purl.org/spar/bido/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -20,7 +19,7 @@ bido:CategorialBibliometricData a owl:Class ;
     :my-categorial-bibliometric-data a bido:CategorialBibliometricData .
     """ ;
     rdfs:comment "Categorical information that characterises publication-related entities from a bibliometric point of view."@en ;
-    rdfs:isDefinedBy : ;
+    rdfs:isDefinedBy <http://purl.org/spar/bido-core> ;
     rdfs:subClassOf bido:BibliometricData,
         skos:Concept ;
     vs:term_status reg:statusStable .
